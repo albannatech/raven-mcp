@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raven-mcp"
+version = "0.0.0"
+description = "Internal chat, channel messaging, and real-time team notifications."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Albanna Software Solutions", email = "ahmedalbanna966@gmail.com" }]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["raven_mcp*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "../albanna-ai-chat"]
+addopts = "-q"
