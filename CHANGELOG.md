@@ -7,6 +7,8 @@ and the app uses [semantic versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.0] — 2026-11-12
+
 ### Added
 
 **The initial scaffold.**
@@ -31,3 +33,4 @@ and the app uses [semantic versioning](https://semver.org/spec/v2.0.0.html).
   see Administrator's permissions.
 - **No flows.** A flow is a genuine multi-step transaction, and that is a
   decision rather than a default.
+
