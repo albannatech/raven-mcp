@@ -123,4 +123,4 @@ TIERS = {
 #: ``0.3.0`` is the first core version carrying the four primitives.  An
 #: earlier core has none of them, so declaring a lower bound below 0.3.0 would
 #: promise a compatibility that cannot exist.
-REQUIRES_CORE = ">=0.3.0,<0.4.0"
+REQUIRES_CORE = ">=0.4.0,<0.5.0"
